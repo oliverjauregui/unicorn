@@ -20,6 +20,10 @@
     font-family: semibold;
     src: url(../fonts/source-sans-pro.semibold.ttf);
 }
+@font-face {
+    font-family: regular;
+    src: url(../fonts/source-sans-pro.regular.ttf);
+}
 .menu{
 	display: flex;
 	justify-content: space-between;
@@ -65,4 +69,448 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 75px;
+}
+.brocoli{
+	text-align: center;
+	font-size: 27px;
+	font-family: bold;
+	padding: 100px;
+}
+.brocoli h3{
+	margin-bottom: 40px;
+	font-size: 27px;
+}
+.brocoli p{
+	font-family: semibold;
+	font-size: 16px;
+	line-height: 30px;
+}
+.feature{
+	background-color: #efefef;
+	display: flex;
+	justify-content: space-around;
+	padding: 90px 60px 90px 60px;
+}
+.feature h4{
+	font-size: 18px;
+	font-family: semibold;
+	margin-bottom: 20px;
+}
+.feature p{
+	font-family: regular;
+	font-size: 16px;
+}
+.aricles{
+	display: flex;
+	flex-direction: column;
+}
+.articles__text{
+	text-align: center;
+	margin-top: 70px;
+}
+.articles__text h3{
+	font-family: bold;
+	font-size: 27px;
+}
+.articles__text p{
+	font-family: regular;
+	font-size: 16px;
+}
+.blackdivs{
+	display: flex;
+	justify-content: space-around;
+	padding: 80px 130px 110px 130px;
+}
+.black{
+	height: 300px;
+	width: 300px;
+	background-color: #222222;
+	color: #eeeeee;
+}
+.orange{
+	height: 4px;
+	width: 65px;
+	background-color: #e64a19;
+	margin-left: auto;
+	margin-right: auto;
+}
+.black h5{
+	font-size: 14px;
+	font-family: regular;
+	margin-left: 20px;
+	margin-top: 55px;
+}
+.black p{
+	font-size: 24px;
+	font-family: regular;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.photo{
+	display: flex;
+	margin-left: 20px; 
+}
+.photo p{
+	font-family: semibold;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 9px;
+	margin-left: 15px;
+}
+.brand{
+	background-color: #efefef;
+	padding: 80px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.brand h3{
+	font-size: 27px;
+	font-family: bold;
+	margin-bottom: 40px;
+}
+.sometext{
+	text-align: center;
+}
+.sometext h3{
+	font-size: 27px;
+	font-family: bold;
+	margin-top: 65px;
+	margin-bottom: 32px;
+}
+.sometext p{
+	font-family: regular;
+	font-size: 16px;
+}
+.orange2{
+	height: 6px;
+	width: 65px;
+	background-color: #e64a19;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.portafolio{
+	display: flex;
+	flex-direction: column;
+}
+.portafolio ul{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 35px;
+}
+.portafolio ul li{
+	font-family: regular;
+	font-size: 16px;
+	margin-left: 35px;
+}
+.lightbox{
+	display: flex;
+}
+.dot{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.dot i{
+	margin-left: 8px;
+}
+.opinion{
+	background-color: #212121;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.opinion p{
+	font-family: regular;
+	font-size: 20px;
+	line-height: 38px;
+}
+.opinion i{
+	margin-top: 70px;
+}
+.team{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.team h3{
+	font-family: bold;
+	font-size: 27px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.team p{
+	font-family: regular;
+	font-size: 16px;
+	line-height: 30px;
+}
+.faces{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.faces h5{
+	font-family: bold;
+	font-size: 16px;
+}
+.faces p{
+	font-family: regular;
+	font-size: 15px;
+}
+.facts{
+	background: url(../images/layer13.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.fondo{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	justify-content: space-around;
+}
+.fondo h3{
+	font-family: bold;
+	font-size: 27px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.numbers{
+	width: 650px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.35);
+	color: #eee;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: -webkit-center;
+}
+.container div div{
+	height: 4px;
+	width: 50px;
+	background-color: #4d4c4b;
+	margin-top: 16px;
+	margin-bottom: 15px;
+}
+.numbers div p{
+	font-size: 24px;
+	font-family: regular;
+}
+.orange3{
+	height: 4px;
+	width: 65px;
+	background-color: #e64a19;
+	margin-bottom: 63px;
+}
+.all{
+	margin: 110px 130px 100px 130px;
+}
+.first{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.first div{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.first div p{
+	font-size: 16px;
+	font-family: regular;
+	line-height: 30px;
+}
+.first div h4{
+	font-size: 24px;
+	font-family: semibold;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.second{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.second div{
+	text-align: center;
+	margin-top: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.second div p{
+	font-size: 16px;
+	font-family: regular;
+	line-height: 30px;
+}
+.second div h4{
+	font-size: 24px;
+	font-family: semibold;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.third{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.third div{
+	text-align: center;
+	margin-top: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.third div p{
+	font-size: 16px;
+	font-family: regular;
+	line-height: 30px;
+}
+.third div h4{
+	font-size: 24px;
+	font-family: semibold;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.date{
+	background-color: #efefef;
+	display: flex;
+	justify-content: space-around;
+}
+.days{
+	margin-top: 50px;
+	border-left: 4px solid #000;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+.days h4{
+	font-size: 18px;
+	font-family: semibold;
+}
+.days p{
+	font-size: 14px;
+	font-family: regular;
+}
+.comment{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.comment img{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.mail{
+	font-family: bold;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.premail{
+	font-size: 20px;
+	font-family: regular;
+	line-height: 35px;
+}
+footer{
+	background-color: #212121;
+	color: #898989;
+}
+.footer__all{
+	padding: 60px 120px 35px 120px;
+}
+.footer1{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+}
+.input p{
+	font-family: regular;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.input input{
+	background-color: transparent;
+    border-color: #898989;
+    border-width: 0 0 1px;
+    font-family: regular;
+}
+button{
+	background-color: transparent;
+    border-color: #898989;
+    border-width: 0 0 1px;
+    font-family: regular;
+    color: #898989;
+    font-size: 15px;
+    margin-right: 8px;
+}
+.links{
+	display: flex;
+	flex-direction: row;
+}
+.mapa{
+	margin-right: 120px;
+}
+.mapa h4{
+	color: #ddd;
+	font-family: semibold;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.mapa li{
+	font-family: regular;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+/*Oliver Jauregui*/
+.social{
+	margin-right: 50px;
+}
+.social h4{
+	color: #ddd;
+	font-family: semibold;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.social li{
+	font-family: regular;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+.footer2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-top: 1px solid #898989;
+	align-items: center;
+}
+.footer2 ul{
+	display: flex;
+	font-family: regular;
+	font-size: 13px;
+}
+.footer2 li{
+	margin-right: 30px;
+}
+.footer2 p{
+	line-height: 30px;
+	font-family: regular;
+	font-size: 14px;
 }
